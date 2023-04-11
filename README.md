@@ -2,7 +2,7 @@
 Use `pip3 install -r requirements.txt` to install required modules
 
 ## Start
-Use `nohup python3 run_bot.py > /dev/null &` to run in the background
+Use `nohup python3 main.py > /dev/null &` to run in the background
 
 ## Stop
 Use `kill $(cat .pid)` to kill the process in the background with pid
